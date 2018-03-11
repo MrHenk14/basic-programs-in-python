@@ -1,0 +1,17 @@
+#variables
+name = input("What's your name?\n")
+age = input("How old are you?\n")
+security = input("Security question:\nWhat is the result of the 2+2?:\n")
+
+#sentences
+if security == str(4):
+  print(str("Your name is ") + name + str(" and you are ") + age + str(" years old."))
+  if age >= str(18):
+    print("You are major.")
+  else:
+    print("You are minor.")
+else:
+ 	print("Wrong answer, try again!")
+
+#exit
+input("Press any key to close the program.")
